@@ -1,0 +1,17 @@
+C:\Users\prac.datoscalidad\Prebel S.A BIC\Control calidad empaque - Planes de Inspección\PROYECTOS\Prueba4\Prueba4\bin\Debug\Prueba4.exe.config
+C:\Users\prac.datoscalidad\Prebel S.A BIC\Control calidad empaque - Planes de Inspección\PROYECTOS\Prueba4\Prueba4\bin\Debug\Prueba4.exe
+C:\Users\prac.datoscalidad\Prebel S.A BIC\Control calidad empaque - Planes de Inspección\PROYECTOS\Prueba4\Prueba4\bin\Debug\Prueba4.pdb
+C:\Users\prac.datoscalidad\Prebel S.A BIC\Control calidad empaque - Planes de Inspección\PROYECTOS\Prueba4\Prueba4\bin\Debug\Prueba4.xml
+C:\Users\prac.datoscalidad\Prebel S.A BIC\Control calidad empaque - Planes de Inspección\PROYECTOS\Prueba4\Prueba4\obj\Debug\Prueba4.vbproj.AssemblyReference.cache
+C:\Users\prac.datoscalidad\Prebel S.A BIC\Control calidad empaque - Planes de Inspección\PROYECTOS\Prueba4\Prueba4\obj\Debug\Prueba4.vbproj.ResolveComReference.cache
+C:\Users\prac.datoscalidad\Prebel S.A BIC\Control calidad empaque - Planes de Inspección\PROYECTOS\Prueba4\Prueba4\obj\Debug\Prueba4.Form1.resources
+C:\Users\prac.datoscalidad\Prebel S.A BIC\Control calidad empaque - Planes de Inspección\PROYECTOS\Prueba4\Prueba4\obj\Debug\Prueba4.Resources.resources
+C:\Users\prac.datoscalidad\Prebel S.A BIC\Control calidad empaque - Planes de Inspección\PROYECTOS\Prueba4\Prueba4\obj\Debug\Prueba4.vbproj.GenerateResource.cache
+C:\Users\prac.datoscalidad\Prebel S.A BIC\Control calidad empaque - Planes de Inspección\PROYECTOS\Prueba4\Prueba4\obj\Debug\Prueba4.vbproj.CoreCompileInputs.cache
+C:\Users\prac.datoscalidad\Prebel S.A BIC\Control calidad empaque - Planes de Inspección\PROYECTOS\Prueba4\Prueba4\obj\Debug\Prueba4.exe
+C:\Users\prac.datoscalidad\Prebel S.A BIC\Control calidad empaque - Planes de Inspección\PROYECTOS\Prueba4\Prueba4\obj\Debug\Prueba4.xml
+C:\Users\prac.datoscalidad\Prebel S.A BIC\Control calidad empaque - Planes de Inspección\PROYECTOS\Prueba4\Prueba4\obj\Debug\Prueba4.pdb
+C:\Users\prac.datoscalidad\Prebel S.A BIC\Control calidad empaque - Planes de Inspección\PROYECTOS\Prueba4\Prueba4\bin\Debug\Prueba4.exe.manifest
+C:\Users\prac.datoscalidad\Prebel S.A BIC\Control calidad empaque - Planes de Inspección\PROYECTOS\Prueba4\Prueba4\bin\Debug\Prueba4.application
+C:\Users\prac.datoscalidad\Prebel S.A BIC\Control calidad empaque - Planes de Inspección\PROYECTOS\Prueba4\Prueba4\obj\Debug\Prueba4.exe.manifest
+C:\Users\prac.datoscalidad\Prebel S.A BIC\Control calidad empaque - Planes de Inspección\PROYECTOS\Prueba4\Prueba4\obj\Debug\Prueba4.application
