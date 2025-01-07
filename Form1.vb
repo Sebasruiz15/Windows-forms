@@ -12,6 +12,10 @@ Public Class Form1
     Dim Hoja1 As Worksheet
     Dim Final As Long
 
+    Dim ExcelWorkbook As Workbook
+    Dim ExcelWorksheet As Worksheet
+    Dim ExcelRange As Range
+
 
     ' Al cargar el formulario, abrimos el archivo Excel '
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -21,7 +25,7 @@ Public Class Form1
     End Sub
 
     ' Función para obtener la última fila vacía '
-    Private Function nReg(ByVal hoja As Worksheet, ByVal columna As Integer) As Long
+    Private Function NReg(ByVal hoja As Worksheet, ByVal columna As Integer) As Long
         Dim ultimaFila As Long
         ultimaFila = hoja.Cells(hoja.Rows.Count, columna).End(XlDirection.xlUp).Row
         Return ultimaFila + 1 ' La siguiente fila vacía '
@@ -30,7 +34,7 @@ Public Class Form1
     ' Evento de botón para agregar un registro '
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         ' Abrir excel '
-        Libro = ExcelApp.Workbooks.Open("\\COMEDFS02\Reporte Muestreo e Inspección\Formatos CCE\FDE\AnálisisFde.xlsx")
+        Libro = ExcelApp.Workbooks.Open("\\ comedfs02 \ Control calidad de empaque\REQUISITOS DE GESTION\INFORMACION ACTIVA\Nuevo.xlsx")
         Hoja1 = Libro.Sheets("Hoja1")
         Final = nReg(Hoja1, 1)
 
@@ -38,13 +42,13 @@ Public Class Form1
         Hoja1.Cells(Final, 1).Value = TextBox1.Text 'Hace registro del lote
 
         Hoja1.Cells(Final, 2).Value = DateTimePicker1.Text 'Hace registro de la fecha realizacion DE
-        Hoja1.Cells(Final, 3).Value = TextBox10.Text ' Registro Defecto
-        Hoja1.Cells(Final, 4).Value = TextBox9.Text ' Registro Unidades
-        Hoja1.Cells(Final, 5).Value = TextBox8.Text  'hace resgistro de AQl
-        Hoja1.Cells(Final, 6).Value = TextBox7.Text ' Registro AC
-        Hoja1.Cells(Final, 7).Value = TextBox6.Text ' Registro RC
-        Hoja1.Cells(Final, 8).Value = ComboBox1.Text 'Hace registro de las observaciones  
-        Hoja1.Cells(Final, 9).Value = TextBox2.Text 'Hace registro de la nota para DE
+        Hoja1.Cells(Final, 3).Value = Txtdefecto1.Text ' Registro Defecto
+        Hoja1.Cells(Final, 4).Value = Txtunidades2.Text ' Registro Unidades
+        Hoja1.Cells(Final, 5).Value = TxTiposAql5.Text  'Hace resgistro de AQl
+        Hoja1.Cells(Final, 6).Value = TextRe1.Text ' Registro AC
+        Hoja1.Cells(Final, 7).Value = TextAc1.Text ' Registro RC
+        Hoja1.Cells(Final, 8).Value = NotasDE.Text 'Hace registro de las observaciones  
+        Hoja1.Cells(Final, 9).Value = ObserTxt.Text 'Hace registro de la nota para DE
 
 
 
@@ -174,17 +178,17 @@ Public Class Form1
             session.findById("wnd[1]/tbar[0]/btn[0]").press
             'session.findById("wnd[1]/tbar[0]/btn[0]").press
             session.findById("wnd[1]/usr/ctxtDY_PATH").Text = "\\COMEDFS02\CONTROL CALIDAD DE EMPAQUE\REQUISITOS DE GESTION\INFORMACION ACTIVA\"
-            session.findById("wnd[1]/usr/ctxtDY_FILENAME").Text = "fde_4.XLS"
+            session.findById("wnd[1]/usr/ctxtDY_FILENAME").Text = "Nuevo.XLS"
             session.findById("wnd[1]/usr/ctxtDY_FILENAME").caretPosition = 1
             session.findById("wnd[1]/tbar[0]/btn[11]").press
             session.findById("wnd[0]/tbar[0]/btn[3]").press
             session.findById("wnd[0]/tbar[0]/btn[3]").press
 
-            Main()
+            ''Main()
         Catch ex As Exception
             MessageBox.Show($"Error al conectar con SAP: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
-
+        Main()
     End Sub
 
     Private Sub TextBox30_TextChanged(sender As Object, e As EventArgs)
@@ -192,8 +196,23 @@ Public Class Form1
     End Sub
 
     Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
+        'Dim filePath As String = "\\comedfs02\Control calidad de empaque\REQUISITOS DE GESTION\INFORMACION ACTIVA\Nuevo.XLS"
+        'ExcelApp = New Application With {
+        '.Visible = True ' No mostrar la ventana de Excel
+        ' }
+
+        ' Abre el archivo de Excel
+        ' ExcelWorkbook = ExcelApp.Workbooks.Open(filePath)
+        'ExcelWorksheet.Rows("1:3").Delete
         Main()
+
+
     End Sub
+
+
+
+
+
 
 
 

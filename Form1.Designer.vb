@@ -28,8 +28,8 @@ Partial Class Form1
         Me.lbllote = New System.Windows.Forms.Label()
         Me.lblNotas = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.NotasDE = New System.Windows.Forms.ComboBox()
+        Me.ObserTxt = New System.Windows.Forms.TextBox()
         Me.lblobservaciones = New System.Windows.Forms.Label()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
@@ -43,7 +43,7 @@ Partial Class Form1
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
+        Me.Txtdefecto1 = New System.Windows.Forms.TextBox()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         Me.CheckBox4 = New System.Windows.Forms.CheckBox()
@@ -51,33 +51,33 @@ Partial Class Form1
         Me.CheckBox6 = New System.Windows.Forms.CheckBox()
         Me.ablaql = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.TextBox21 = New System.Windows.Forms.TextBox()
+        Me.Txtunidades1 = New System.Windows.Forms.TextBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.TextBox28 = New System.Windows.Forms.TextBox()
+        Me.TextRe5 = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.TextBox29 = New System.Windows.Forms.TextBox()
-        Me.TextBox23 = New System.Windows.Forms.TextBox()
-        Me.TextBox24 = New System.Windows.Forms.TextBox()
-        Me.TextBox18 = New System.Windows.Forms.TextBox()
-        Me.TextBox19 = New System.Windows.Forms.TextBox()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
-        Me.TextBox17 = New System.Windows.Forms.TextBox()
-        Me.TextBox22 = New System.Windows.Forms.TextBox()
-        Me.TextBox27 = New System.Windows.Forms.TextBox()
-        Me.TextBox26 = New System.Windows.Forms.TextBox()
-        Me.TextBox16 = New System.Windows.Forms.TextBox()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.TextBox25 = New System.Windows.Forms.TextBox()
-        Me.TextBox20 = New System.Windows.Forms.TextBox()
-        Me.TextBox15 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextAc5 = New System.Windows.Forms.TextBox()
+        Me.TextRe4 = New System.Windows.Forms.TextBox()
+        Me.TextAc4 = New System.Windows.Forms.TextBox()
+        Me.TextRe3 = New System.Windows.Forms.TextBox()
+        Me.TextAc3 = New System.Windows.Forms.TextBox()
+        Me.TextRe2 = New System.Windows.Forms.TextBox()
+        Me.TextAc2 = New System.Windows.Forms.TextBox()
+        Me.TextRe1 = New System.Windows.Forms.TextBox()
+        Me.TextAc1 = New System.Windows.Forms.TextBox()
+        Me.TxTiposAql5 = New System.Windows.Forms.TextBox()
+        Me.TxTiposAql4 = New System.Windows.Forms.TextBox()
+        Me.TxTiposAql3 = New System.Windows.Forms.TextBox()
+        Me.TxTiposAql2 = New System.Windows.Forms.TextBox()
+        Me.TxTiposAql1 = New System.Windows.Forms.TextBox()
+        Me.Txtunidades5 = New System.Windows.Forms.TextBox()
+        Me.Txtunidades4 = New System.Windows.Forms.TextBox()
+        Me.Txtunidades3 = New System.Windows.Forms.TextBox()
+        Me.Txtunidades2 = New System.Windows.Forms.TextBox()
+        Me.Txtdefecto5 = New System.Windows.Forms.TextBox()
+        Me.Txtdefecto4 = New System.Windows.Forms.TextBox()
+        Me.Txtdefecto3 = New System.Windows.Forms.TextBox()
+        Me.Txtdefecto2 = New System.Windows.Forms.TextBox()
         Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
@@ -131,30 +131,30 @@ Partial Class Form1
         Me.TextBox1.TabIndex = 6
         Me.TextBox1.Text = "10941908"
         '
-        'ComboBox1
+        'NotasDE
         '
-        Me.ComboBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.NotasDE.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox1.ForeColor = System.Drawing.Color.Black
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.ImeMode = System.Windows.Forms.ImeMode.[On]
-        Me.ComboBox1.Items.AddRange(New Object() {"SE DEDEN DESCONTAR 20 UNIDADES PARA FUNCIONALES", "Se aprueba el material por concesión teniendo en cuenta los lineamientos de proce" &
+        Me.NotasDE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.NotasDE.ForeColor = System.Drawing.Color.Black
+        Me.NotasDE.FormattingEnabled = True
+        Me.NotasDE.ImeMode = System.Windows.Forms.ImeMode.[On]
+        Me.NotasDE.Items.AddRange(New Object() {"SE DEDEN DESCONTAR 20 UNIDADES PARA FUNCIONALES", "Se aprueba el material por concesión teniendo en cuenta los lineamientos de proce" &
                 "dimiento", "Se rechazan las unidades reportadas en este informe que se encuentran existentes " &
                 "en el inventario", "Se aprueba con Observaciòn con autorizaciòn de I+D o cliente"})
-        Me.ComboBox1.Location = New System.Drawing.Point(291, 382)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(479, 21)
-        Me.ComboBox1.TabIndex = 7
+        Me.NotasDE.Location = New System.Drawing.Point(291, 382)
+        Me.NotasDE.Name = "NotasDE"
+        Me.NotasDE.Size = New System.Drawing.Size(479, 21)
+        Me.NotasDE.TabIndex = 7
         '
-        'TextBox2
+        'ObserTxt
         '
-        Me.TextBox2.Location = New System.Drawing.Point(17, 461)
-        Me.TextBox2.Multiline = True
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(337, 38)
-        Me.TextBox2.TabIndex = 8
+        Me.ObserTxt.Location = New System.Drawing.Point(17, 461)
+        Me.ObserTxt.Multiline = True
+        Me.ObserTxt.Name = "ObserTxt"
+        Me.ObserTxt.Size = New System.Drawing.Size(337, 38)
+        Me.ObserTxt.TabIndex = 8
         '
         'lblobservaciones
         '
@@ -191,7 +191,7 @@ Partial Class Form1
         Me.TextBox5.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TextBox5.Size = New System.Drawing.Size(85, 20)
         Me.TextBox5.TabIndex = 14
-        Me.TextBox5.Text = "Sandramilena1995*"
+        Me.TextBox5.Text = "Enerodel2025*"
         '
         'Label2
         '
@@ -215,12 +215,13 @@ Partial Class Form1
         '
         'DateTimePicker1
         '
+        Me.DateTimePicker1.Enabled = False
         Me.DateTimePicker1.ImeMode = System.Windows.Forms.ImeMode.[On]
         Me.DateTimePicker1.Location = New System.Drawing.Point(556, 5)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(214, 20)
         Me.DateTimePicker1.TabIndex = 17
-        Me.DateTimePicker1.Value = New Date(2024, 12, 12, 0, 0, 0, 0)
+        Me.DateTimePicker1.Value = New Date(2025, 1, 7, 10, 35, 39, 0)
         '
         'PictureBox1
         '
@@ -272,12 +273,13 @@ Partial Class Form1
         '
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.SystemColors.InactiveCaption
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Yi Baiti", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(165, 162)
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Yi Baiti", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(145, 34)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(87, 21)
+        Me.Label6.Size = New System.Drawing.Size(86, 32)
         Me.Label6.TabIndex = 23
-        Me.Label6.Text = "Unidades"
+        Me.Label6.Text = "Unidades" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Defectousas"
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label7
         '
@@ -290,13 +292,13 @@ Partial Class Form1
         Me.Label7.TabIndex = 24
         Me.Label7.Text = "Defecto"
         '
-        'TextBox10
+        'Txtdefecto1
         '
-        Me.TextBox10.Location = New System.Drawing.Point(13, 69)
-        Me.TextBox10.Multiline = True
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(134, 20)
-        Me.TextBox10.TabIndex = 29
+        Me.Txtdefecto1.Location = New System.Drawing.Point(13, 69)
+        Me.Txtdefecto1.Multiline = True
+        Me.Txtdefecto1.Name = "Txtdefecto1"
+        Me.Txtdefecto1.Size = New System.Drawing.Size(134, 20)
+        Me.Txtdefecto1.TabIndex = 29
         '
         'CheckBox1
         '
@@ -365,55 +367,56 @@ Partial Class Form1
         Me.Label5.TabIndex = 37
         Me.Label5.Text = "Aplica"
         '
-        'TextBox21
+        'Txtunidades1
         '
-        Me.TextBox21.Location = New System.Drawing.Point(157, 68)
-        Me.TextBox21.Multiline = True
-        Me.TextBox21.Name = "TextBox21"
-        Me.TextBox21.Size = New System.Drawing.Size(62, 20)
-        Me.TextBox21.TabIndex = 51
+        Me.Txtunidades1.Location = New System.Drawing.Point(157, 68)
+        Me.Txtunidades1.Multiline = True
+        Me.Txtunidades1.Name = "Txtunidades1"
+        Me.Txtunidades1.Size = New System.Drawing.Size(62, 20)
+        Me.Txtunidades1.TabIndex = 51
         '
         'GroupBox2
         '
         Me.GroupBox2.BackColor = System.Drawing.SystemColors.InactiveCaption
         Me.GroupBox2.Controls.Add(Me.ComboBox2)
-        Me.GroupBox2.Controls.Add(Me.TextBox28)
+        Me.GroupBox2.Controls.Add(Me.TextRe5)
+        Me.GroupBox2.Controls.Add(Me.Label6)
         Me.GroupBox2.Controls.Add(Me.Label8)
-        Me.GroupBox2.Controls.Add(Me.TextBox29)
-        Me.GroupBox2.Controls.Add(Me.TextBox23)
-        Me.GroupBox2.Controls.Add(Me.TextBox24)
-        Me.GroupBox2.Controls.Add(Me.TextBox18)
-        Me.GroupBox2.Controls.Add(Me.TextBox19)
-        Me.GroupBox2.Controls.Add(Me.TextBox13)
-        Me.GroupBox2.Controls.Add(Me.TextBox14)
-        Me.GroupBox2.Controls.Add(Me.TextBox7)
-        Me.GroupBox2.Controls.Add(Me.TextBox6)
-        Me.GroupBox2.Controls.Add(Me.TextBox8)
-        Me.GroupBox2.Controls.Add(Me.TextBox12)
-        Me.GroupBox2.Controls.Add(Me.TextBox17)
-        Me.GroupBox2.Controls.Add(Me.TextBox22)
-        Me.GroupBox2.Controls.Add(Me.TextBox27)
+        Me.GroupBox2.Controls.Add(Me.TextAc5)
+        Me.GroupBox2.Controls.Add(Me.TextRe4)
+        Me.GroupBox2.Controls.Add(Me.TextAc4)
+        Me.GroupBox2.Controls.Add(Me.TextRe3)
+        Me.GroupBox2.Controls.Add(Me.TextAc3)
+        Me.GroupBox2.Controls.Add(Me.TextRe2)
+        Me.GroupBox2.Controls.Add(Me.TextAc2)
+        Me.GroupBox2.Controls.Add(Me.TextRe1)
+        Me.GroupBox2.Controls.Add(Me.TextAc1)
+        Me.GroupBox2.Controls.Add(Me.TxTiposAql5)
+        Me.GroupBox2.Controls.Add(Me.TxTiposAql4)
+        Me.GroupBox2.Controls.Add(Me.TxTiposAql3)
+        Me.GroupBox2.Controls.Add(Me.TxTiposAql2)
+        Me.GroupBox2.Controls.Add(Me.TxTiposAql1)
         Me.GroupBox2.Controls.Add(Me.Label3)
         Me.GroupBox2.Controls.Add(Me.Label4)
-        Me.GroupBox2.Controls.Add(Me.TextBox26)
-        Me.GroupBox2.Controls.Add(Me.TextBox16)
-        Me.GroupBox2.Controls.Add(Me.TextBox11)
+        Me.GroupBox2.Controls.Add(Me.Txtunidades5)
+        Me.GroupBox2.Controls.Add(Me.Txtunidades4)
+        Me.GroupBox2.Controls.Add(Me.Txtunidades3)
         Me.GroupBox2.Controls.Add(Me.ablaql)
-        Me.GroupBox2.Controls.Add(Me.TextBox9)
-        Me.GroupBox2.Controls.Add(Me.TextBox25)
-        Me.GroupBox2.Controls.Add(Me.TextBox20)
-        Me.GroupBox2.Controls.Add(Me.TextBox15)
-        Me.GroupBox2.Controls.Add(Me.TextBox3)
+        Me.GroupBox2.Controls.Add(Me.Txtunidades2)
+        Me.GroupBox2.Controls.Add(Me.Txtdefecto5)
+        Me.GroupBox2.Controls.Add(Me.Txtdefecto4)
+        Me.GroupBox2.Controls.Add(Me.Txtdefecto3)
+        Me.GroupBox2.Controls.Add(Me.Txtdefecto2)
         Me.GroupBox2.Controls.Add(Me.TextBox1)
         Me.GroupBox2.Controls.Add(Me.Button3)
         Me.GroupBox2.Controls.Add(Me.CheckBox1)
         Me.GroupBox2.Controls.Add(Me.CheckBox5)
-        Me.GroupBox2.Controls.Add(Me.TextBox21)
+        Me.GroupBox2.Controls.Add(Me.Txtunidades1)
         Me.GroupBox2.Controls.Add(Me.CheckBox6)
         Me.GroupBox2.Controls.Add(Me.Label5)
         Me.GroupBox2.Controls.Add(Me.CheckBox3)
         Me.GroupBox2.Controls.Add(Me.CheckBox4)
-        Me.GroupBox2.Controls.Add(Me.TextBox10)
+        Me.GroupBox2.Controls.Add(Me.Txtdefecto1)
         Me.GroupBox2.Location = New System.Drawing.Point(12, 118)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(484, 215)
@@ -435,13 +438,13 @@ Partial Class Form1
         Me.ComboBox2.Size = New System.Drawing.Size(47, 21)
         Me.ComboBox2.TabIndex = 59
         '
-        'TextBox28
+        'TextRe5
         '
-        Me.TextBox28.Location = New System.Drawing.Point(369, 172)
-        Me.TextBox28.Multiline = True
-        Me.TextBox28.Name = "TextBox28"
-        Me.TextBox28.Size = New System.Drawing.Size(31, 20)
-        Me.TextBox28.TabIndex = 79
+        Me.TextRe5.Location = New System.Drawing.Point(369, 172)
+        Me.TextRe5.Multiline = True
+        Me.TextRe5.Name = "TextRe5"
+        Me.TextRe5.Size = New System.Drawing.Size(31, 20)
+        Me.TextRe5.TabIndex = 79
         '
         'Label8
         '
@@ -454,181 +457,181 @@ Partial Class Form1
         Me.Label8.TabIndex = 59
         Me.Label8.Text = "Cl.Insp"
         '
-        'TextBox29
+        'TextAc5
         '
-        Me.TextBox29.Location = New System.Drawing.Point(332, 172)
-        Me.TextBox29.Multiline = True
-        Me.TextBox29.Name = "TextBox29"
-        Me.TextBox29.Size = New System.Drawing.Size(31, 20)
-        Me.TextBox29.TabIndex = 78
+        Me.TextAc5.Location = New System.Drawing.Point(332, 172)
+        Me.TextAc5.Multiline = True
+        Me.TextAc5.Name = "TextAc5"
+        Me.TextAc5.Size = New System.Drawing.Size(31, 20)
+        Me.TextAc5.TabIndex = 78
         '
-        'TextBox23
+        'TextRe4
         '
-        Me.TextBox23.Location = New System.Drawing.Point(369, 147)
-        Me.TextBox23.Multiline = True
-        Me.TextBox23.Name = "TextBox23"
-        Me.TextBox23.Size = New System.Drawing.Size(31, 20)
-        Me.TextBox23.TabIndex = 77
+        Me.TextRe4.Location = New System.Drawing.Point(369, 147)
+        Me.TextRe4.Multiline = True
+        Me.TextRe4.Name = "TextRe4"
+        Me.TextRe4.Size = New System.Drawing.Size(31, 20)
+        Me.TextRe4.TabIndex = 77
         '
-        'TextBox24
+        'TextAc4
         '
-        Me.TextBox24.Location = New System.Drawing.Point(332, 147)
-        Me.TextBox24.Multiline = True
-        Me.TextBox24.Name = "TextBox24"
-        Me.TextBox24.Size = New System.Drawing.Size(31, 20)
-        Me.TextBox24.TabIndex = 76
+        Me.TextAc4.Location = New System.Drawing.Point(332, 147)
+        Me.TextAc4.Multiline = True
+        Me.TextAc4.Name = "TextAc4"
+        Me.TextAc4.Size = New System.Drawing.Size(31, 20)
+        Me.TextAc4.TabIndex = 76
         '
-        'TextBox18
+        'TextRe3
         '
-        Me.TextBox18.Location = New System.Drawing.Point(369, 120)
-        Me.TextBox18.Multiline = True
-        Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Size = New System.Drawing.Size(31, 20)
-        Me.TextBox18.TabIndex = 75
+        Me.TextRe3.Location = New System.Drawing.Point(369, 120)
+        Me.TextRe3.Multiline = True
+        Me.TextRe3.Name = "TextRe3"
+        Me.TextRe3.Size = New System.Drawing.Size(31, 20)
+        Me.TextRe3.TabIndex = 75
         '
-        'TextBox19
+        'TextAc3
         '
-        Me.TextBox19.Location = New System.Drawing.Point(332, 120)
-        Me.TextBox19.Multiline = True
-        Me.TextBox19.Name = "TextBox19"
-        Me.TextBox19.Size = New System.Drawing.Size(31, 20)
-        Me.TextBox19.TabIndex = 74
+        Me.TextAc3.Location = New System.Drawing.Point(332, 120)
+        Me.TextAc3.Multiline = True
+        Me.TextAc3.Name = "TextAc3"
+        Me.TextAc3.Size = New System.Drawing.Size(31, 20)
+        Me.TextAc3.TabIndex = 74
         '
-        'TextBox13
+        'TextRe2
         '
-        Me.TextBox13.Location = New System.Drawing.Point(369, 94)
-        Me.TextBox13.Multiline = True
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(31, 20)
-        Me.TextBox13.TabIndex = 73
+        Me.TextRe2.Location = New System.Drawing.Point(369, 94)
+        Me.TextRe2.Multiline = True
+        Me.TextRe2.Name = "TextRe2"
+        Me.TextRe2.Size = New System.Drawing.Size(31, 20)
+        Me.TextRe2.TabIndex = 73
         '
-        'TextBox14
+        'TextAc2
         '
-        Me.TextBox14.Location = New System.Drawing.Point(332, 94)
-        Me.TextBox14.Multiline = True
-        Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(31, 20)
-        Me.TextBox14.TabIndex = 72
+        Me.TextAc2.Location = New System.Drawing.Point(332, 94)
+        Me.TextAc2.Multiline = True
+        Me.TextAc2.Name = "TextAc2"
+        Me.TextAc2.Size = New System.Drawing.Size(31, 20)
+        Me.TextAc2.TabIndex = 72
         '
-        'TextBox7
+        'TextRe1
         '
-        Me.TextBox7.Location = New System.Drawing.Point(369, 69)
-        Me.TextBox7.Multiline = True
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(31, 20)
-        Me.TextBox7.TabIndex = 71
+        Me.TextRe1.Location = New System.Drawing.Point(369, 69)
+        Me.TextRe1.Multiline = True
+        Me.TextRe1.Name = "TextRe1"
+        Me.TextRe1.Size = New System.Drawing.Size(31, 20)
+        Me.TextRe1.TabIndex = 71
         '
-        'TextBox6
+        'TextAc1
         '
-        Me.TextBox6.Location = New System.Drawing.Point(332, 69)
-        Me.TextBox6.Multiline = True
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(31, 20)
-        Me.TextBox6.TabIndex = 70
+        Me.TextAc1.Location = New System.Drawing.Point(332, 69)
+        Me.TextAc1.Multiline = True
+        Me.TextAc1.Name = "TextAc1"
+        Me.TextAc1.Size = New System.Drawing.Size(31, 20)
+        Me.TextAc1.TabIndex = 70
         '
-        'TextBox8
+        'TxTiposAql5
         '
-        Me.TextBox8.Location = New System.Drawing.Point(259, 172)
-        Me.TextBox8.Multiline = True
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(62, 20)
-        Me.TextBox8.TabIndex = 69
+        Me.TxTiposAql5.Location = New System.Drawing.Point(259, 172)
+        Me.TxTiposAql5.Multiline = True
+        Me.TxTiposAql5.Name = "TxTiposAql5"
+        Me.TxTiposAql5.Size = New System.Drawing.Size(62, 20)
+        Me.TxTiposAql5.TabIndex = 69
         '
-        'TextBox12
+        'TxTiposAql4
         '
-        Me.TextBox12.Location = New System.Drawing.Point(259, 147)
-        Me.TextBox12.Multiline = True
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(62, 20)
-        Me.TextBox12.TabIndex = 68
+        Me.TxTiposAql4.Location = New System.Drawing.Point(259, 147)
+        Me.TxTiposAql4.Multiline = True
+        Me.TxTiposAql4.Name = "TxTiposAql4"
+        Me.TxTiposAql4.Size = New System.Drawing.Size(62, 20)
+        Me.TxTiposAql4.TabIndex = 68
         '
-        'TextBox17
+        'TxTiposAql3
         '
-        Me.TextBox17.Location = New System.Drawing.Point(259, 120)
-        Me.TextBox17.Multiline = True
-        Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Size = New System.Drawing.Size(62, 20)
-        Me.TextBox17.TabIndex = 67
+        Me.TxTiposAql3.Location = New System.Drawing.Point(259, 120)
+        Me.TxTiposAql3.Multiline = True
+        Me.TxTiposAql3.Name = "TxTiposAql3"
+        Me.TxTiposAql3.Size = New System.Drawing.Size(62, 20)
+        Me.TxTiposAql3.TabIndex = 67
         '
-        'TextBox22
+        'TxTiposAql2
         '
-        Me.TextBox22.Location = New System.Drawing.Point(259, 94)
-        Me.TextBox22.Multiline = True
-        Me.TextBox22.Name = "TextBox22"
-        Me.TextBox22.Size = New System.Drawing.Size(62, 20)
-        Me.TextBox22.TabIndex = 66
+        Me.TxTiposAql2.Location = New System.Drawing.Point(259, 94)
+        Me.TxTiposAql2.Multiline = True
+        Me.TxTiposAql2.Name = "TxTiposAql2"
+        Me.TxTiposAql2.Size = New System.Drawing.Size(62, 20)
+        Me.TxTiposAql2.TabIndex = 66
         '
-        'TextBox27
+        'TxTiposAql1
         '
-        Me.TextBox27.Location = New System.Drawing.Point(259, 68)
-        Me.TextBox27.Multiline = True
-        Me.TextBox27.Name = "TextBox27"
-        Me.TextBox27.Size = New System.Drawing.Size(62, 20)
-        Me.TextBox27.TabIndex = 65
+        Me.TxTiposAql1.Location = New System.Drawing.Point(259, 68)
+        Me.TxTiposAql1.Multiline = True
+        Me.TxTiposAql1.Name = "TxTiposAql1"
+        Me.TxTiposAql1.Size = New System.Drawing.Size(62, 20)
+        Me.TxTiposAql1.TabIndex = 65
         '
-        'TextBox26
+        'Txtunidades5
         '
-        Me.TextBox26.Location = New System.Drawing.Point(157, 172)
-        Me.TextBox26.Multiline = True
-        Me.TextBox26.Name = "TextBox26"
-        Me.TextBox26.Size = New System.Drawing.Size(62, 20)
-        Me.TextBox26.TabIndex = 64
+        Me.Txtunidades5.Location = New System.Drawing.Point(157, 172)
+        Me.Txtunidades5.Multiline = True
+        Me.Txtunidades5.Name = "Txtunidades5"
+        Me.Txtunidades5.Size = New System.Drawing.Size(62, 20)
+        Me.Txtunidades5.TabIndex = 64
         '
-        'TextBox16
+        'Txtunidades4
         '
-        Me.TextBox16.Location = New System.Drawing.Point(157, 147)
-        Me.TextBox16.Multiline = True
-        Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Size = New System.Drawing.Size(62, 20)
-        Me.TextBox16.TabIndex = 63
+        Me.Txtunidades4.Location = New System.Drawing.Point(157, 147)
+        Me.Txtunidades4.Multiline = True
+        Me.Txtunidades4.Name = "Txtunidades4"
+        Me.Txtunidades4.Size = New System.Drawing.Size(62, 20)
+        Me.Txtunidades4.TabIndex = 63
         '
-        'TextBox11
+        'Txtunidades3
         '
-        Me.TextBox11.Location = New System.Drawing.Point(157, 120)
-        Me.TextBox11.Multiline = True
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(62, 20)
-        Me.TextBox11.TabIndex = 62
+        Me.Txtunidades3.Location = New System.Drawing.Point(157, 120)
+        Me.Txtunidades3.Multiline = True
+        Me.Txtunidades3.Name = "Txtunidades3"
+        Me.Txtunidades3.Size = New System.Drawing.Size(62, 20)
+        Me.Txtunidades3.TabIndex = 62
         '
-        'TextBox9
+        'Txtunidades2
         '
-        Me.TextBox9.Location = New System.Drawing.Point(157, 94)
-        Me.TextBox9.Multiline = True
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(62, 20)
-        Me.TextBox9.TabIndex = 61
+        Me.Txtunidades2.Location = New System.Drawing.Point(157, 94)
+        Me.Txtunidades2.Multiline = True
+        Me.Txtunidades2.Name = "Txtunidades2"
+        Me.Txtunidades2.Size = New System.Drawing.Size(62, 20)
+        Me.Txtunidades2.TabIndex = 61
         '
-        'TextBox25
+        'Txtdefecto5
         '
-        Me.TextBox25.Location = New System.Drawing.Point(13, 172)
-        Me.TextBox25.Multiline = True
-        Me.TextBox25.Name = "TextBox25"
-        Me.TextBox25.Size = New System.Drawing.Size(134, 20)
-        Me.TextBox25.TabIndex = 60
+        Me.Txtdefecto5.Location = New System.Drawing.Point(13, 172)
+        Me.Txtdefecto5.Multiline = True
+        Me.Txtdefecto5.Name = "Txtdefecto5"
+        Me.Txtdefecto5.Size = New System.Drawing.Size(134, 20)
+        Me.Txtdefecto5.TabIndex = 60
         '
-        'TextBox20
+        'Txtdefecto4
         '
-        Me.TextBox20.Location = New System.Drawing.Point(13, 147)
-        Me.TextBox20.Multiline = True
-        Me.TextBox20.Name = "TextBox20"
-        Me.TextBox20.Size = New System.Drawing.Size(134, 20)
-        Me.TextBox20.TabIndex = 59
+        Me.Txtdefecto4.Location = New System.Drawing.Point(13, 147)
+        Me.Txtdefecto4.Multiline = True
+        Me.Txtdefecto4.Name = "Txtdefecto4"
+        Me.Txtdefecto4.Size = New System.Drawing.Size(134, 20)
+        Me.Txtdefecto4.TabIndex = 59
         '
-        'TextBox15
+        'Txtdefecto3
         '
-        Me.TextBox15.Location = New System.Drawing.Point(13, 121)
-        Me.TextBox15.Multiline = True
-        Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(134, 20)
-        Me.TextBox15.TabIndex = 58
+        Me.Txtdefecto3.Location = New System.Drawing.Point(13, 121)
+        Me.Txtdefecto3.Multiline = True
+        Me.Txtdefecto3.Name = "Txtdefecto3"
+        Me.Txtdefecto3.Size = New System.Drawing.Size(134, 20)
+        Me.Txtdefecto3.TabIndex = 58
         '
-        'TextBox3
+        'Txtdefecto2
         '
-        Me.TextBox3.Location = New System.Drawing.Point(13, 95)
-        Me.TextBox3.Multiline = True
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(134, 20)
-        Me.TextBox3.TabIndex = 57
+        Me.Txtdefecto2.Location = New System.Drawing.Point(13, 95)
+        Me.Txtdefecto2.Multiline = True
+        Me.Txtdefecto2.Name = "Txtdefecto2"
+        Me.Txtdefecto2.Size = New System.Drawing.Size(134, 20)
+        Me.Txtdefecto2.TabIndex = 57
         '
         'Button2
         '
@@ -647,12 +650,11 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(782, 559)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.lblobservaciones)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.ObserTxt)
+        Me.Controls.Add(Me.NotasDE)
         Me.Controls.Add(Me.lblNotas)
         Me.Controls.Add(Me.lbllote)
         Me.Controls.Add(Me.Label1)
@@ -680,8 +682,8 @@ Partial Class Form1
     Friend WithEvents lbllote As Label
     Friend WithEvents lblNotas As Label
     Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents NotasDE As ComboBox
+    Friend WithEvents ObserTxt As TextBox
     Friend WithEvents lblobservaciones As Label
     Friend WithEvents Button3 As Button
     Friend WithEvents TextBox4 As TextBox
@@ -695,7 +697,7 @@ Partial Class Form1
     Friend WithEvents Label4 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
-    Friend WithEvents TextBox10 As TextBox
+    Friend WithEvents Txtdefecto1 As TextBox
     Friend WithEvents CheckBox1 As CheckBox
     Friend WithEvents CheckBox3 As CheckBox
     Friend WithEvents CheckBox4 As CheckBox
@@ -703,31 +705,31 @@ Partial Class Form1
     Friend WithEvents CheckBox6 As CheckBox
     Friend WithEvents ablaql As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents TextBox21 As TextBox
+    Friend WithEvents Txtunidades1 As TextBox
     Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents TextBox12 As TextBox
-    Friend WithEvents TextBox17 As TextBox
-    Friend WithEvents TextBox22 As TextBox
-    Friend WithEvents TextBox27 As TextBox
-    Friend WithEvents TextBox26 As TextBox
-    Friend WithEvents TextBox16 As TextBox
-    Friend WithEvents TextBox11 As TextBox
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents TextBox25 As TextBox
-    Friend WithEvents TextBox20 As TextBox
-    Friend WithEvents TextBox15 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox28 As TextBox
-    Friend WithEvents TextBox29 As TextBox
-    Friend WithEvents TextBox23 As TextBox
-    Friend WithEvents TextBox24 As TextBox
-    Friend WithEvents TextBox18 As TextBox
-    Friend WithEvents TextBox19 As TextBox
-    Friend WithEvents TextBox13 As TextBox
-    Friend WithEvents TextBox14 As TextBox
-    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents TextAc1 As TextBox
+    Friend WithEvents TxTiposAql5 As TextBox
+    Friend WithEvents TxTiposAql4 As TextBox
+    Friend WithEvents TxTiposAql3 As TextBox
+    Friend WithEvents TxTiposAql2 As TextBox
+    Friend WithEvents TxTiposAql1 As TextBox
+    Friend WithEvents Txtunidades5 As TextBox
+    Friend WithEvents Txtunidades4 As TextBox
+    Friend WithEvents Txtunidades3 As TextBox
+    Friend WithEvents Txtunidades2 As TextBox
+    Friend WithEvents Txtdefecto5 As TextBox
+    Friend WithEvents Txtdefecto4 As TextBox
+    Friend WithEvents Txtdefecto3 As TextBox
+    Friend WithEvents Txtdefecto2 As TextBox
+    Friend WithEvents TextRe5 As TextBox
+    Friend WithEvents TextAc5 As TextBox
+    Friend WithEvents TextRe4 As TextBox
+    Friend WithEvents TextAc4 As TextBox
+    Friend WithEvents TextRe3 As TextBox
+    Friend WithEvents TextAc3 As TextBox
+    Friend WithEvents TextRe2 As TextBox
+    Friend WithEvents TextAc2 As TextBox
+    Friend WithEvents TextRe1 As TextBox
     Friend WithEvents Label8 As Label
     Friend WithEvents ComboBox2 As ComboBox
     Friend WithEvents Button2 As Button
