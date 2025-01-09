@@ -53,6 +53,12 @@ Partial Class Form1
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Txtunidades1 = New System.Windows.Forms.TextBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.TxtInspec5 = New System.Windows.Forms.TextBox()
+        Me.TxtInspec4 = New System.Windows.Forms.TextBox()
+        Me.TxtInspec3 = New System.Windows.Forms.TextBox()
+        Me.TxtInspec2 = New System.Windows.Forms.TextBox()
+        Me.TxtInspec1 = New System.Windows.Forms.TextBox()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         Me.TextRe5 = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
@@ -78,7 +84,6 @@ Partial Class Form1
         Me.Txtdefecto4 = New System.Windows.Forms.TextBox()
         Me.Txtdefecto3 = New System.Windows.Forms.TextBox()
         Me.Txtdefecto2 = New System.Windows.Forms.TextBox()
-        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -252,7 +257,7 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.SystemColors.InactiveCaption
         Me.Label3.Font = New System.Drawing.Font("Microsoft Yi Baiti", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(369, 43)
+        Me.Label3.Location = New System.Drawing.Point(398, 43)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(35, 21)
         Me.Label3.TabIndex = 20
@@ -263,7 +268,7 @@ Partial Class Form1
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.SystemColors.InactiveCaption
         Me.Label4.Font = New System.Drawing.Font("Microsoft Yi Baiti", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(328, 43)
+        Me.Label4.Location = New System.Drawing.Point(357, 43)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(35, 21)
         Me.Label4.TabIndex = 21
@@ -274,11 +279,11 @@ Partial Class Form1
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.SystemColors.InactiveCaption
         Me.Label6.Font = New System.Drawing.Font("Microsoft Yi Baiti", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(145, 34)
+        Me.Label6.Location = New System.Drawing.Point(154, 34)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(86, 32)
+        Me.Label6.Size = New System.Drawing.Size(49, 32)
         Me.Label6.TabIndex = 23
-        Me.Label6.Text = "Unidades" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Defectousas"
+        Me.Label6.Text = "Und. " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Defec."
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label7
@@ -303,7 +308,7 @@ Partial Class Form1
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(426, 147)
+        Me.CheckBox1.Location = New System.Drawing.Point(455, 147)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox1.TabIndex = 30
@@ -312,7 +317,7 @@ Partial Class Form1
         'CheckBox3
         '
         Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Location = New System.Drawing.Point(426, 69)
+        Me.CheckBox3.Location = New System.Drawing.Point(455, 69)
         Me.CheckBox3.Name = "CheckBox3"
         Me.CheckBox3.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox3.TabIndex = 32
@@ -321,7 +326,7 @@ Partial Class Form1
         'CheckBox4
         '
         Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.Location = New System.Drawing.Point(426, 95)
+        Me.CheckBox4.Location = New System.Drawing.Point(455, 95)
         Me.CheckBox4.Name = "CheckBox4"
         Me.CheckBox4.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox4.TabIndex = 33
@@ -330,7 +335,7 @@ Partial Class Form1
         'CheckBox5
         '
         Me.CheckBox5.AutoSize = True
-        Me.CheckBox5.Location = New System.Drawing.Point(426, 120)
+        Me.CheckBox5.Location = New System.Drawing.Point(455, 120)
         Me.CheckBox5.Name = "CheckBox5"
         Me.CheckBox5.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox5.TabIndex = 34
@@ -339,7 +344,7 @@ Partial Class Form1
         'CheckBox6
         '
         Me.CheckBox6.AutoSize = True
-        Me.CheckBox6.Location = New System.Drawing.Point(426, 172)
+        Me.CheckBox6.Location = New System.Drawing.Point(455, 172)
         Me.CheckBox6.Name = "CheckBox6"
         Me.CheckBox6.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox6.TabIndex = 35
@@ -361,7 +366,7 @@ Partial Class Form1
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.SystemColors.InactiveCaption
         Me.Label5.Font = New System.Drawing.Font("Microsoft Yi Baiti", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(410, 46)
+        Me.Label5.Location = New System.Drawing.Point(439, 46)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(53, 19)
         Me.Label5.TabIndex = 37
@@ -369,15 +374,21 @@ Partial Class Form1
         '
         'Txtunidades1
         '
-        Me.Txtunidades1.Location = New System.Drawing.Point(157, 68)
+        Me.Txtunidades1.Location = New System.Drawing.Point(157, 69)
         Me.Txtunidades1.Multiline = True
         Me.Txtunidades1.Name = "Txtunidades1"
-        Me.Txtunidades1.Size = New System.Drawing.Size(62, 20)
+        Me.Txtunidades1.Size = New System.Drawing.Size(30, 20)
         Me.Txtunidades1.TabIndex = 51
         '
         'GroupBox2
         '
         Me.GroupBox2.BackColor = System.Drawing.SystemColors.InactiveCaption
+        Me.GroupBox2.Controls.Add(Me.Label9)
+        Me.GroupBox2.Controls.Add(Me.TxtInspec5)
+        Me.GroupBox2.Controls.Add(Me.TxtInspec4)
+        Me.GroupBox2.Controls.Add(Me.TxtInspec3)
+        Me.GroupBox2.Controls.Add(Me.TxtInspec2)
+        Me.GroupBox2.Controls.Add(Me.TxtInspec1)
         Me.GroupBox2.Controls.Add(Me.ComboBox2)
         Me.GroupBox2.Controls.Add(Me.TextRe5)
         Me.GroupBox2.Controls.Add(Me.Label6)
@@ -419,9 +430,61 @@ Partial Class Form1
         Me.GroupBox2.Controls.Add(Me.Txtdefecto1)
         Me.GroupBox2.Location = New System.Drawing.Point(12, 118)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(484, 215)
+        Me.GroupBox2.Size = New System.Drawing.Size(556, 215)
         Me.GroupBox2.TabIndex = 58
         Me.GroupBox2.TabStop = False
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.BackColor = System.Drawing.SystemColors.InactiveCaption
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Yi Baiti", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(205, 34)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(46, 32)
+        Me.Label9.TabIndex = 85
+        Me.Label9.Text = "Und. " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Insp."
+        Me.Label9.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'TxtInspec5
+        '
+        Me.TxtInspec5.Location = New System.Drawing.Point(208, 172)
+        Me.TxtInspec5.Multiline = True
+        Me.TxtInspec5.Name = "TxtInspec5"
+        Me.TxtInspec5.Size = New System.Drawing.Size(30, 20)
+        Me.TxtInspec5.TabIndex = 84
+        '
+        'TxtInspec4
+        '
+        Me.TxtInspec4.Location = New System.Drawing.Point(208, 147)
+        Me.TxtInspec4.Multiline = True
+        Me.TxtInspec4.Name = "TxtInspec4"
+        Me.TxtInspec4.Size = New System.Drawing.Size(30, 20)
+        Me.TxtInspec4.TabIndex = 83
+        '
+        'TxtInspec3
+        '
+        Me.TxtInspec3.Location = New System.Drawing.Point(208, 120)
+        Me.TxtInspec3.Multiline = True
+        Me.TxtInspec3.Name = "TxtInspec3"
+        Me.TxtInspec3.Size = New System.Drawing.Size(30, 20)
+        Me.TxtInspec3.TabIndex = 82
+        '
+        'TxtInspec2
+        '
+        Me.TxtInspec2.Location = New System.Drawing.Point(208, 94)
+        Me.TxtInspec2.Multiline = True
+        Me.TxtInspec2.Name = "TxtInspec2"
+        Me.TxtInspec2.Size = New System.Drawing.Size(30, 20)
+        Me.TxtInspec2.TabIndex = 81
+        '
+        'TxtInspec1
+        '
+        Me.TxtInspec1.Location = New System.Drawing.Point(208, 69)
+        Me.TxtInspec1.Multiline = True
+        Me.TxtInspec1.Name = "TxtInspec1"
+        Me.TxtInspec1.Size = New System.Drawing.Size(30, 20)
+        Me.TxtInspec1.TabIndex = 80
         '
         'ComboBox2
         '
@@ -435,12 +498,12 @@ Partial Class Form1
         Me.ComboBox2.Items.AddRange(New Object() {"Z01", "08", "09", "Z055", "Z04", "Z088"})
         Me.ComboBox2.Location = New System.Drawing.Point(254, 12)
         Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(47, 21)
+        Me.ComboBox2.Size = New System.Drawing.Size(119, 21)
         Me.ComboBox2.TabIndex = 59
         '
         'TextRe5
         '
-        Me.TextRe5.Location = New System.Drawing.Point(369, 172)
+        Me.TextRe5.Location = New System.Drawing.Point(398, 172)
         Me.TextRe5.Multiline = True
         Me.TextRe5.Name = "TextRe5"
         Me.TextRe5.Size = New System.Drawing.Size(31, 20)
@@ -459,7 +522,7 @@ Partial Class Form1
         '
         'TextAc5
         '
-        Me.TextAc5.Location = New System.Drawing.Point(332, 172)
+        Me.TextAc5.Location = New System.Drawing.Point(361, 172)
         Me.TextAc5.Multiline = True
         Me.TextAc5.Name = "TextAc5"
         Me.TextAc5.Size = New System.Drawing.Size(31, 20)
@@ -467,7 +530,7 @@ Partial Class Form1
         '
         'TextRe4
         '
-        Me.TextRe4.Location = New System.Drawing.Point(369, 147)
+        Me.TextRe4.Location = New System.Drawing.Point(398, 147)
         Me.TextRe4.Multiline = True
         Me.TextRe4.Name = "TextRe4"
         Me.TextRe4.Size = New System.Drawing.Size(31, 20)
@@ -475,7 +538,7 @@ Partial Class Form1
         '
         'TextAc4
         '
-        Me.TextAc4.Location = New System.Drawing.Point(332, 147)
+        Me.TextAc4.Location = New System.Drawing.Point(361, 147)
         Me.TextAc4.Multiline = True
         Me.TextAc4.Name = "TextAc4"
         Me.TextAc4.Size = New System.Drawing.Size(31, 20)
@@ -483,7 +546,7 @@ Partial Class Form1
         '
         'TextRe3
         '
-        Me.TextRe3.Location = New System.Drawing.Point(369, 120)
+        Me.TextRe3.Location = New System.Drawing.Point(398, 120)
         Me.TextRe3.Multiline = True
         Me.TextRe3.Name = "TextRe3"
         Me.TextRe3.Size = New System.Drawing.Size(31, 20)
@@ -491,7 +554,7 @@ Partial Class Form1
         '
         'TextAc3
         '
-        Me.TextAc3.Location = New System.Drawing.Point(332, 120)
+        Me.TextAc3.Location = New System.Drawing.Point(361, 120)
         Me.TextAc3.Multiline = True
         Me.TextAc3.Name = "TextAc3"
         Me.TextAc3.Size = New System.Drawing.Size(31, 20)
@@ -499,7 +562,7 @@ Partial Class Form1
         '
         'TextRe2
         '
-        Me.TextRe2.Location = New System.Drawing.Point(369, 94)
+        Me.TextRe2.Location = New System.Drawing.Point(398, 94)
         Me.TextRe2.Multiline = True
         Me.TextRe2.Name = "TextRe2"
         Me.TextRe2.Size = New System.Drawing.Size(31, 20)
@@ -507,7 +570,7 @@ Partial Class Form1
         '
         'TextAc2
         '
-        Me.TextAc2.Location = New System.Drawing.Point(332, 94)
+        Me.TextAc2.Location = New System.Drawing.Point(361, 94)
         Me.TextAc2.Multiline = True
         Me.TextAc2.Name = "TextAc2"
         Me.TextAc2.Size = New System.Drawing.Size(31, 20)
@@ -515,7 +578,7 @@ Partial Class Form1
         '
         'TextRe1
         '
-        Me.TextRe1.Location = New System.Drawing.Point(369, 69)
+        Me.TextRe1.Location = New System.Drawing.Point(398, 69)
         Me.TextRe1.Multiline = True
         Me.TextRe1.Name = "TextRe1"
         Me.TextRe1.Size = New System.Drawing.Size(31, 20)
@@ -523,7 +586,7 @@ Partial Class Form1
         '
         'TextAc1
         '
-        Me.TextAc1.Location = New System.Drawing.Point(332, 69)
+        Me.TextAc1.Location = New System.Drawing.Point(361, 69)
         Me.TextAc1.Multiline = True
         Me.TextAc1.Name = "TextAc1"
         Me.TextAc1.Size = New System.Drawing.Size(31, 20)
@@ -534,7 +597,7 @@ Partial Class Form1
         Me.TxTiposAql5.Location = New System.Drawing.Point(259, 172)
         Me.TxTiposAql5.Multiline = True
         Me.TxTiposAql5.Name = "TxTiposAql5"
-        Me.TxTiposAql5.Size = New System.Drawing.Size(62, 20)
+        Me.TxTiposAql5.Size = New System.Drawing.Size(96, 20)
         Me.TxTiposAql5.TabIndex = 69
         '
         'TxTiposAql4
@@ -542,7 +605,7 @@ Partial Class Form1
         Me.TxTiposAql4.Location = New System.Drawing.Point(259, 147)
         Me.TxTiposAql4.Multiline = True
         Me.TxTiposAql4.Name = "TxTiposAql4"
-        Me.TxTiposAql4.Size = New System.Drawing.Size(62, 20)
+        Me.TxTiposAql4.Size = New System.Drawing.Size(96, 20)
         Me.TxTiposAql4.TabIndex = 68
         '
         'TxTiposAql3
@@ -550,7 +613,7 @@ Partial Class Form1
         Me.TxTiposAql3.Location = New System.Drawing.Point(259, 120)
         Me.TxTiposAql3.Multiline = True
         Me.TxTiposAql3.Name = "TxTiposAql3"
-        Me.TxTiposAql3.Size = New System.Drawing.Size(62, 20)
+        Me.TxTiposAql3.Size = New System.Drawing.Size(96, 20)
         Me.TxTiposAql3.TabIndex = 67
         '
         'TxTiposAql2
@@ -558,7 +621,7 @@ Partial Class Form1
         Me.TxTiposAql2.Location = New System.Drawing.Point(259, 94)
         Me.TxTiposAql2.Multiline = True
         Me.TxTiposAql2.Name = "TxTiposAql2"
-        Me.TxTiposAql2.Size = New System.Drawing.Size(62, 20)
+        Me.TxTiposAql2.Size = New System.Drawing.Size(96, 20)
         Me.TxTiposAql2.TabIndex = 66
         '
         'TxTiposAql1
@@ -566,7 +629,7 @@ Partial Class Form1
         Me.TxTiposAql1.Location = New System.Drawing.Point(259, 68)
         Me.TxTiposAql1.Multiline = True
         Me.TxTiposAql1.Name = "TxTiposAql1"
-        Me.TxTiposAql1.Size = New System.Drawing.Size(62, 20)
+        Me.TxTiposAql1.Size = New System.Drawing.Size(96, 20)
         Me.TxTiposAql1.TabIndex = 65
         '
         'Txtunidades5
@@ -574,7 +637,7 @@ Partial Class Form1
         Me.Txtunidades5.Location = New System.Drawing.Point(157, 172)
         Me.Txtunidades5.Multiline = True
         Me.Txtunidades5.Name = "Txtunidades5"
-        Me.Txtunidades5.Size = New System.Drawing.Size(62, 20)
+        Me.Txtunidades5.Size = New System.Drawing.Size(30, 20)
         Me.Txtunidades5.TabIndex = 64
         '
         'Txtunidades4
@@ -582,7 +645,7 @@ Partial Class Form1
         Me.Txtunidades4.Location = New System.Drawing.Point(157, 147)
         Me.Txtunidades4.Multiline = True
         Me.Txtunidades4.Name = "Txtunidades4"
-        Me.Txtunidades4.Size = New System.Drawing.Size(62, 20)
+        Me.Txtunidades4.Size = New System.Drawing.Size(30, 20)
         Me.Txtunidades4.TabIndex = 63
         '
         'Txtunidades3
@@ -590,7 +653,7 @@ Partial Class Form1
         Me.Txtunidades3.Location = New System.Drawing.Point(157, 120)
         Me.Txtunidades3.Multiline = True
         Me.Txtunidades3.Name = "Txtunidades3"
-        Me.Txtunidades3.Size = New System.Drawing.Size(62, 20)
+        Me.Txtunidades3.Size = New System.Drawing.Size(30, 20)
         Me.Txtunidades3.TabIndex = 62
         '
         'Txtunidades2
@@ -598,7 +661,7 @@ Partial Class Form1
         Me.Txtunidades2.Location = New System.Drawing.Point(157, 94)
         Me.Txtunidades2.Multiline = True
         Me.Txtunidades2.Name = "Txtunidades2"
-        Me.Txtunidades2.Size = New System.Drawing.Size(62, 20)
+        Me.Txtunidades2.Size = New System.Drawing.Size(30, 20)
         Me.Txtunidades2.TabIndex = 61
         '
         'Txtdefecto5
@@ -633,22 +696,12 @@ Partial Class Form1
         Me.Txtdefecto2.Size = New System.Drawing.Size(134, 20)
         Me.Txtdefecto2.TabIndex = 57
         '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(517, 130)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(39, 21)
-        Me.Button2.TabIndex = 59
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.MenuBar
         Me.ClientSize = New System.Drawing.Size(782, 559)
-        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.DateTimePicker1)
@@ -732,5 +785,10 @@ Partial Class Form1
     Friend WithEvents TextRe1 As TextBox
     Friend WithEvents Label8 As Label
     Friend WithEvents ComboBox2 As ComboBox
-    Friend WithEvents Button2 As Button
+    Friend WithEvents TxtInspec5 As TextBox
+    Friend WithEvents TxtInspec4 As TextBox
+    Friend WithEvents TxtInspec3 As TextBox
+    Friend WithEvents TxtInspec2 As TextBox
+    Friend WithEvents TxtInspec1 As TextBox
+    Friend WithEvents Label9 As Label
 End Class

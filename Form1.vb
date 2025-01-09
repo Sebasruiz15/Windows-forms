@@ -195,17 +195,13 @@ Public Class Form1
 
     End Sub
 
-    Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
-        'Dim filePath As String = "\\comedfs02\Control calidad de empaque\REQUISITOS DE GESTION\INFORMACION ACTIVA\Nuevo.XLS"
-        'ExcelApp = New Application With {
-        '.Visible = True ' No mostrar la ventana de Excel
-        ' }
 
-        ' Abre el archivo de Excel
-        ' ExcelWorkbook = ExcelApp.Workbooks.Open(filePath)
-        'ExcelWorksheet.Rows("1:3").Delete
-        Main()
 
+    Private Sub TextBox8_TextChanged(sender As Object, e As EventArgs) Handles TxtInspec1.TextChanged
+
+    End Sub
+
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
 
     End Sub
 
