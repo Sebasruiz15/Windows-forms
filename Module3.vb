@@ -14,7 +14,7 @@ Module Module3
         'Dim worksheet As Excel.Worksheet
         excelApp.Visible = False  ' Hacer visible la aplicación de Excel
         ' Abrir un libro de trabajo (reemplaza la ruta por la del archivo que deseas)
-        Dim workbook As Excel.Workbook = excelApp.Workbooks.Open("\\comedfs02\Control calidad de empaque\REQUISITOS DE GESTION\INFORMACION ACTIVA\Nuevo.XLS")
+        Dim workbook As Excel.Workbook = excelApp.Workbooks.Open("\\comedfs02\Control calidad de empaque\REQUISITOS DE GESTION\INFORMACION ACTIVA\Nuevo1.XLS", [ReadOnly]:=True)
         Dim ws As Excel.Worksheet = CType(workbook.ActiveSheet, Excel.Worksheet)
 
         ' Copiar la columna N desde la primera fila hasta la última fila con datos
@@ -30,7 +30,7 @@ Module Module3
 
         ' Eliminar duplicados en el rango A1:A17 de la nueva hoja
         Dim range As Excel.Range = newSheet.Range("A1:C170")
-        range.RemoveDuplicates(1, Excel.XlYesNoGuess.xlNo)
+        range.RemoveDuplicates(2, Excel.XlYesNoGuess.xlNo)
 
         Dim ws2 As Excel.Worksheet = CType(workbook.ActiveSheet, Excel.Worksheet)
 
@@ -77,7 +77,7 @@ Module Module3
         'workbook.Close()
         'excelApp.Quit()
 
-
+        Kill("\\comedfs02\Control calidad de empaque\REQUISITOS DE GESTION\INFORMACION ACTIVA\Nuevo1.XLS")
 
         Dim SAPguiApp As Object = Nothing
         Dim SAPguiAuto As Object = Nothing
@@ -287,7 +287,7 @@ Module Module3
         'Abre tabla de AQL 
 
         Dim excelApp1 As New Excel.Application()
-        excelApp1.Visible = True
+        excelApp1.Visible = False
         Dim workbook2 As Excel.Workbook = excelApp1.Workbooks.Open("\\comedfs02\Reporte Muestreo e Inspección\Formatos CCE\FDE\TablaAQL1.xlsx", [ReadOnly]:=True)
         Dim ws1 As Excel.Worksheet = CType(workbook2.ActiveSheet, Excel.Worksheet)
 
@@ -326,7 +326,7 @@ Module Module3
                 ' Comparamos el valor de la celda con el texto del formulario
                 If cellValueStr = form.TxtInspec1.Text Then
 
-                    If workbook2.Sheets("Hoja2").Range("C" & fila).Value = form.TextAc1.Text And workbook2.Sheets("Hoja2").Range("d" & fila).Value = form.TextRe1.Text Then
+                    If workbook2.Sheets("Hoja2").Range("C" & fila).Value = form.TextAc1.Text And workbook2.Sheets("Hoja2").Range("D" & fila).Value = form.TextRe1.Text Then
 
                         form.TxTiposAql1.Text = workbook2.Sheets("Hoja2").Range("C1").Value
                     Else
@@ -353,10 +353,10 @@ Module Module3
 
 
                     Exit Do
-                    End If
+                End If
 
-                    ' Incrementamos la fila
-                    fila += 1
+                ' Incrementamos la fila
+                fila += 1
             Loop
         End If
 
@@ -393,7 +393,7 @@ Module Module3
                 ' Comparamos el valor de la celda con el texto del formulario
                 If cellValueStr = form.TxtInspec2.Text Then
 
-                    If workbook2.Sheets("Hoja2").Range("C" & fila).Value = form.TextAc2.Text And workbook2.Sheets("Hoja2").Range("d" & fila).Value = form.TextRe2.Text Then
+                    If workbook2.Sheets("Hoja2").Range("C" & fila).Value = form.TextAc2.Text And workbook2.Sheets("Hoja2").Range("D" & fila).Value = form.TextRe2.Text Then
 
                         form.TxTiposAql2.Text = workbook2.Sheets("Hoja2").Range("C1").Value
                     Else
@@ -461,9 +461,9 @@ Module Module3
                 ' Comparamos el valor de la celda con el texto del formulario
                 If cellValueStr = form.TxtInspec3.Text Then
 
-                    If workbook2.Sheets("Hoja2").Range("C" & fila).Value = form.TextAc3.Text And workbook2.Sheets("Hoja2").Range("d" & fila).Value = form.TextRe3.Text Then
+                    If workbook2.Sheets("Hoja2").Range("C" & fila).Value = form.TextAc3.Text And workbook2.Sheets("Hoja2").Range("D" & fila).Value = form.TextRe3.Text Then
 
-                        form.TxTiposAql1.Text = workbook2.Sheets("Hoja2").Range("C1").Value
+                        form.TxTiposAql3.Text = workbook2.Sheets("Hoja2").Range("C1").Value
                     Else
                         If workbook2.Sheets("Hoja2").Range("E" & fila).Value = form.TextAc3.Text And workbook2.Sheets("Hoja2").Range("F" & fila).Value = form.TextRe3.Text Then
 
@@ -530,7 +530,7 @@ Module Module3
                 ' Comparamos el valor de la celda con el texto del formulario
                 If cellValueStr = form.TxtInspec4.Text Then
 
-                    If workbook2.Sheets("Hoja2").Range("C" & fila).Value = form.TextAc4.Text And workbook2.Sheets("Hoja2").Range("d" & fila).Value = form.TextRe4.Text Then
+                    If workbook2.Sheets("Hoja2").Range("C" & fila).Value = form.TextAc4.Text And workbook2.Sheets("Hoja2").Range("D" & fila).Value = form.TextRe4.Text Then
 
                         form.TxTiposAql4.Text = workbook2.Sheets("Hoja2").Range("C1").Value
                     Else
@@ -597,7 +597,7 @@ Module Module3
                 ' Comparamos el valor de la celda con el texto del formulario
                 If cellValueStr = form.TxtInspec5.Text Then
 
-                    If workbook2.Sheets("Hoja2").Range("C" & fila).Value = form.TextAc5.Text And workbook2.Sheets("Hoja2").Range("d" & fila).Value = form.TextRe5.Text Then
+                    If workbook2.Sheets("Hoja2").Range("C" & fila).Value = form.TextAc5.Text And workbook2.Sheets("Hoja2").Range("D" & fila).Value = form.TextRe5.Text Then
 
                         form.TxTiposAql5.Text = workbook2.Sheets("Hoja2").Range("C1").Value
                     Else
@@ -642,7 +642,6 @@ Module Module3
         System.Runtime.InteropServices.Marshal.ReleaseComObject(ws)
         System.Runtime.InteropServices.Marshal.ReleaseComObject(ws1)
         System.Runtime.InteropServices.Marshal.ReleaseComObject(newSheet)
-
 
 
 
